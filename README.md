@@ -49,9 +49,11 @@ More visualization for sensitive analysis
 
 #### Outline of project
 
-- [Link to notebook 1]()
-- [Link to notebook 2]()
-- [Link to notebook 3]()
+- Traditional analysis: https://github.com/juthikaDash/TwitterAnalysisOnUSAElection/blob/master/traditionalNLPAnalysis.ipynb
+- Morden NLP technology: #TODO
+- Data processing: TODO
+- GUI for visualization: TODO
+- My README file : https://github.com/juthikaDash/TwitterAnalysisOnUSAElection/blob/master/README.md
 
 
 ##### Contact and Further Information
