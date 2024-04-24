@@ -8,6 +8,7 @@ Juthika Dash
 
 #### Rationale
 Why should anyone care about this question?
+
 Given the current high-profile US election, conducting a sentiment analysis on the 2024 US election would be an intriguing task for me and many others.
 
 #### Research Question
