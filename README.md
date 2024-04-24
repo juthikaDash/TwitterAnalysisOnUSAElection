@@ -1,4 +1,4 @@
-### Twitter Analysis on USA election
+### Twitter Analysis on USA Election
 
 **Author**
 Juthika Dash
@@ -14,38 +14,43 @@ Given the current high-profile US election, conducting a sentiment analysis on t
 #### Research Question
 What are you trying to answer?
 1. Positive and negative emotions for both Biden and Trump
-2. Sensitive Analysis on both of their tweets using traditional nlp models
-4. find performance score for traditional model 
-3. How to perform better than traditional model?
+2. Sensitive Analysis of both of their tweets using traditional NLP models
+4. find the performance score for the traditional model 
+3. How to perform better than the traditional model?
 
 #### Data Sources
-What data will you use to answer you question?
+What data will you use to answer your question?
+
 Twitter data typically includes the date, user_id, and tweet content. To extract only the data related to the 2024 US election, Trump or Biden
-I used below tweets for both the candidates:
+I used the below tweets for both candidates:
  "https://raw.githubusercontent.com/edvinmolla/dotfiles/master/Trumpall2.csv"
  "https://raw.githubusercontent.com/edvinmolla/dotfiles/master/Bidenall2.csv"
 
 #### Methodology
 What methods are you using to answer the question?
+
 I used Tokenization to break down the tweets
-Removed the stopwors
-Then used Stemming to find out the root of words to get list unique words
+Removed the stopwords
+Then used Stemming to find out the root of words to get a list of unique words
 Calculated word frequency
-visualize the positive and negative emotions used in the tweets. 
+visualizes the positive and negative emotions used in the tweets. 
 In traditional models, I tried using "Naive Bayed" and "Logistic regression" and got test score
 
 #### Results
 What did your research find?
+
 naive_bayes model's accuracy  for Trump data= 74.62%
 naive_bayes model's accuracy  for Biden data= 40.31%
-Logistic regression model's accuracy  for Trump data= 76.74%
-Logistic regression model's accuracy  for Biden data= 44.19%
-In my conclusion, both naive bayes and LR model, the accuracy is pretty similar for both Trum and Biden tweets. 
+The logistic regression model's accuracy  for Trump data 76.74%
+The logistic regression model's accuracy  for Biden data 44.19%
+In my conclusion, in both naive Bayes and LR models, the accuracy is pretty similar for both Trump's and Biden's tweets. 
 
 #### Next steps
-What suggestions do you have for next steps?
+What suggestions do you have for the next steps?
+
+
 I want to add regularization to improve the performance. 
-Use improved techniques liuke LAMA2 to compare the score against traditional models. 
+Use improved techniques like LAMA2 to compare the score against traditional models. 
 More visualization for sensitive analysis
 
 #### Outline of project
@@ -54,10 +59,10 @@ More visualization for sensitive analysis
 - Morden NLP technology: #TODO
 - Data processing: TODO
 - GUI for visualization: TODO
-- My README file : https://github.com/juthikaDash/TwitterAnalysisOnUSAElection/blob/master/README.md
+- My README file: https://github.com/juthikaDash/TwitterAnalysisOnUSAElection/blob/master/README.md
 
 
 ##### Contact and Further Information
-Below are my reference that I used for this project:
+Below are my references that I used for this project:
 1. https://www.nltk.org/
 2. https://medium.com/@aaltanim/introducing-natural-language-processing-nlp-building-a-basic-chatbot-with-nlp-and-incorporating-57bd3ffb63e7
